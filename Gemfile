@@ -46,10 +46,7 @@ group :development do
 
   # pry関連
   gem 'pry-rails'          # rails cの対話式コンソールがirbの代わりにリッチなpryになる
-  gem 'pry-doc'            # pry中に show-source [method名] でソース内を読める
   gem 'pry-byebug'         # binding.pryをソースに記載すると、ブレイクポイントとなりデバッグが可能になる
-  gem 'pry-stack_explorer' # pry中にスタックを上がったり下がったり行き来できる
-  gem 'pry-nav'
 
 end
 
