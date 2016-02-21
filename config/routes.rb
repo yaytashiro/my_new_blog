@@ -1,17 +1,17 @@
 Rails.application.routes.draw do
-  get 'post/index'
+  # get 'posts/index'
 
-  get 'post/show'
+  # get 'posts/show'
 
-  get 'post/new'
+  # get 'posts/new'
 
-  get 'post/create'
+  # get 'posts/create'
 
-  get 'post/edit'
+  # get 'posts/edit'
 
-  get 'post/update'
+  # get 'posts/update'
 
-  get 'post/delete'
+  # get 'posts/delete'
 
 resources :posts
   # The priority is based upon order of creation: first created -> highest priority.

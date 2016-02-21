@@ -1,0 +1,16 @@
+<h1>新規ブログ</h1>
+<!-- <p>Find me in app/views/post/new.html.erb</p> -->
+<%= form_for @post do |f| %>
+<p>
+	Title:<%= f.text_field :title %>
+</p>
+<p>
+	Category:<%= f.text_field :category %>	
+</p>
+<p>
+	Body:<%= f.text_field :body %>
+</p>
+<p>
+	<%= f.submit '保存する'%>
+</p>
+<% end %>
