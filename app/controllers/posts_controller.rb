@@ -22,7 +22,7 @@ class PostsController < ApplicationController
   end
 
   def update
-    bindung.pry
+    # binding.pry
     @post = Post.find(params[:id])
     @post.update(post_params)
     redirect_to @post
